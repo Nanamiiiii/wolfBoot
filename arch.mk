@@ -130,6 +130,9 @@ endif
 
 ## RISCV
 ifeq ($(ARCH),RISCV)
+
+  # TODO: create target: virt(rv64imac)
+
   CROSS_COMPILE:=riscv32-unknown-elf-
   CFLAGS+=-fno-builtin-printf -DUSE_M_TIME -g -march=rv32imac -mabi=ilp32 -mcmodel=medany -nostartfiles -DARCH_RISCV
   LDFLAGS+=-march=rv32imac -mabi=ilp32 -mcmodel=medany
@@ -338,7 +341,7 @@ endif
 BOOT_IMG?=test-app/image.bin
 
 ## Update mechanism
-ifeq ($(ARCH),AARCH64)
+ifeq ($(ARCH),AARCH64) # TODO: add same process for RISCV64
   CFLAGS+=-DMMU
   UPDATE_OBJS:=src/update_ram.o
 endif

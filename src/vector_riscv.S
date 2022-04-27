@@ -68,69 +68,69 @@
 
 IV:
     j _synctrap
-    .align 2
+    .align 3
     j trap_empty
-    .align 2
+    .align 3
     j trap_empty
-    .align 2
+    .align 3
     j trap_empty
-    .align 2
+    .align 3
     j trap_empty
-    .align 2
+    .align 3
     j trap_empty
-    .align 2
+    .align 3
     j trap_empty
-    .align 2
+    .align 3
     j trap_empty
-    .align 2
+    .align 3
     j trap_empty
-    .align 2
+    .align 3
     j trap_empty
-    .align 2
+    .align 3
     j trap_empty
-    .align 2
+    .align 3
     j trap_empty
-    .align 2
+    .align 3
     j trap_empty
-    .align 2
+    .align 3
     j trap_empty
-    .align 2
+    .align 3
     j trap_empty
-    .align 2
+    .align 3
     j trap_empty
-    .align 2
+    .align 3
     j trap_empty
-    .align 2
+    .align 3
     j trap_empty
-    .align 2
+    .align 3
     j trap_empty
-    .align 2
+    .align 3
     j trap_empty
-    .align 2
+    .align 3
     j trap_empty
-    .align 2
+    .align 3
     j trap_empty
-    .align 2
+    .align 3
     j trap_empty
-    .align 2
+    .align 3
     j trap_empty
-    .align 2
+    .align 3
     j trap_empty
-    .align 2
+    .align 3
     j trap_empty
-    .align 2
+    .align 3
     j trap_empty
-    .align 2
+    .align 3
     j trap_empty
-    .align 2
+    .align 3
     j trap_empty
-    .align 2
+    .align 3
     j trap_empty
-    .align 2
+    .align 3
     j trap_empty
-    .align 2
+    .align 3
     j trap_empty
-    .align 2
+    .align 3
 
 _synctrap:
   trap_entry
